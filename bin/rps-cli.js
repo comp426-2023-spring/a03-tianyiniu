@@ -35,6 +35,7 @@ if (args.h || args.help) {
 
 try {
 	console.log(JSON.stringify(rps(args._[0])));
+	console.log(args);
 } catch (error) {
 	if (error instanceof RangeError) {
 		console.log(`${args._[0]} is out of range.`);
