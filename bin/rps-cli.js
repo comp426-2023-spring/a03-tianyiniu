@@ -40,8 +40,6 @@ try {
 		console.log(`${args._[0]} is out of range.`);
 		console.log(rules_text);
 		process.exit();
-	} else {
-		console.log(error);
 	}
 }
 
